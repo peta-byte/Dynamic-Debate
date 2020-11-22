@@ -1,5 +1,7 @@
 # Dynamic Debate
 
+https://user-images.githubusercontent.com/40006302/99917934-40b41080-2cd9-11eb-974b-399fc89379b1.gif
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
 
 Its main features are:
