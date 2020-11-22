@@ -10,7 +10,7 @@ Its main features are:
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 
 ## Running Cypress tests
@@ -18,6 +18,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 Open 2 terminals in the same project root folder.
 
 1st terminal: Run `npm run start` to execute the app on http://localhost:4200.
+
 2nd terminal: Run `npm run cypress:open` to start Cypress interactively and see the tests in action.
 
 ## Further help
