@@ -1,0 +1,141 @@
+p {
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.content {
+    padding: 0;
+}
+.w3-btn {
+    background-color: #ff4081;
+    color: #fff;
+    min-width: 64px;
+    line-height: 36px;
+    padding: 0 16px;
+    border-radius: 4px;
+    overflow: visible;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500
+}
+.timer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    border: 3px black;
+    min-height: 100vh;
+}
+.timer-card {
+    border-radius: 4px;
+    width: calc(100% - 50%);
+    min-width: 400px;
+    max-width: 100%;
+    margin: 0 8px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+
+    h2 {
+        text-decoration: underline;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+.timer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    min-height: 300px;
+    background-color: #fafafa;
+}
+.motion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% - 30%);
+    text-align: center;
+    height: 100vh;
+    max-height: 100%;
+}
+.motion-container {
+    display: block;
+    margin-top: 50px;
+    width: calc(100% - 30%);
+    height: 400px;
+    max-height: 100%;
+}
+.motion-card {
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    max-width: 100%;
+    padding: 30px;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+.timer-buttons {
+    justify-content: center;
+
+    button {
+        margin: 10px;
+    }
+}
+.card-container {
+    min-height: 100vh;
+}
+.panel-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 16px;
+    padding: 20px;
+}
+.panel {
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    height: 400px;
+    width: calc(100% - 60%);
+    margin: 0 8px 16px;
+    padding: 16px;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+}
+.tally-panel {
+    display: grid;
+    justify-content: space-evenly;
+    min-width: 300px;
+    min-height: 300px;
+}
+.tally {
+    font-size: 900%;
+    display: block;
+    margin: auto;
+}
+.tally-buttons {
+    justify-content: center;
+    margin: auto;
+
+    button {
+        margin: 10px;
+    }
+}
